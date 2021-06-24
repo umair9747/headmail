@@ -137,4 +137,4 @@
     <li> <b>Discord</b> - Umair#5710 </li>
     <li> <b>Email</b> - 0x9778@protonmail.com </li>
     </ul>
-  </p>s
+  </p>
