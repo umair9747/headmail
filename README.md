@@ -13,7 +13,7 @@
 </h1>
 
 <h2 align="left">
-  <b>About Archer</b>
+  <b>About HeadMail</b>
 </h2>
 
 <h1 align="center">
@@ -21,9 +21,28 @@
   </h1>
   
 <p align="left">
-  Archer is an cross-platform tool developed using Nodejs which focuses on the reconnaissance phase of a penetration test. Got a bunch of links that you wanna check? Archer makes it easy for you to check the response codes of all the links and even query them so that you know which link is still alive and which isn't.
+  HeadMail is an cross-platform tool developed using Nodejs which can help investigators and researchers to analyse email headers to filter out relevant data
+  which can be considered useful during digital investigations.
  </p>
- 
+
+<h2 align="left">
+  <b>Headers Filtered:</b>
+  </h2>
+  
+  <p align="left">
+     <ul type="disc">
+       <li>Delivered-To</li>
+       <li>From</li>
+       <li>Date & Time</li>
+       <li>Subject</li>
+       <li>Received-SPF</li>
+       <li>Content-Type</li>
+       <li>Message-ID</li>
+       <li>Mime-Version</li>
+       <li>X-Mailer</li>
+       </ul>
+  </p>
+  
  <h2 align="left">
   <b>Support</b>
  </h2>
@@ -51,7 +70,7 @@
    </ul>
    
    ```sh
-   cd Archer
+   cd headmail
    npm i
    node index.js
    ```
@@ -67,8 +86,8 @@
     sudo apt-get update -y && sudo apt-get upgrade -y
     sudo apt-get install nodejs -y
     sudo apt-get install git -y
-    git clone https://github.com/umair9747/Archer
-    cd Archer
+    git clone https://github.com/umair9747/headmail
+    cd headmail
     npm i
     node index.js
   ```
@@ -81,26 +100,15 @@
 <p align="left">
   
  ```sh
-    Archer V1.0
-     Usage: node index.js [filename] [statuscodetoquery] [outputtype]
-
+    Headmail V1.0
+     Usage: node index.js filelocation
+  
      FILENAME --
-     Specifies the file name containing the domain list along with its full location
-     Note: Make sure the data is stored in txt format
-     Example: /home/user/Desktop/file.txt
-
-     STATUS CODE TO QUERY --
-     Specifies the status codes you would like to be displayed
-     Example: 200/404/302/all
-
-     OUTPUT TYPE --
-     Specifies the format for the output which will be displayed
-     Example: string/json
-
-     EXAMPLE USAGE -- 
-     node index.js /home/user/Desktop/domains.txt 200 string
+     Specifies the location of the file containing the email headers that the tool would read.
+  
+     Example Usage: node index.js /home/umair/Desktop/headers.txt
   ```
-  <b>NOTE: All flags are mandatory. Make sure that the links you provide have http:// or https:// added else Archer would return a "domain doesn't exists" error.</b>
+  <b>NOTE: Supplying a file is mandatory else Archer would return an error</b>
 </p>
 
 
@@ -129,4 +137,4 @@
     <li> <b>Discord</b> - Umair#5710 </li>
     <li> <b>Email</b> - 0x9778@protonmail.com </li>
     </ul>
-  </p>s
+  </p>
