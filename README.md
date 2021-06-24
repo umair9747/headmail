@@ -8,6 +8,7 @@
   <img src="https://img.shields.io/tokei/lines/github/umair9747/headmail">
   <img src="https://img.shields.io/github/followers/umair9747?style=social">
   <img src="https://img.shields.io/github/forks/umair9747/headmail?style=social">
+  <img src="https://img.shields.io/github/languages/code-size/umair9747/headmail">
   <br>
   <img src="https://img.shields.io/badge/made%20with%20%3C%2F%3E%20in%20-India-brightgreen">
 </h1>
