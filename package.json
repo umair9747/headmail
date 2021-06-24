@@ -1,0 +1,16 @@
+{
+  "name": "headmail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "0x9747 <umairnehri9747@gmail.com> (https://umairnehri.in/)",
+  "license": "ISC",
+  "dependencies": {
+    "align-text": "^1.0.2",
+    "colors": "^1.4.0",
+    "figlet": "^1.5.0"
+  }
+}
