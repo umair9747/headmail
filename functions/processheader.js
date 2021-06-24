@@ -49,7 +49,6 @@ function processfile(file){
         //variables
         var recipent = "Delivered-To:";
         var sender = "From:";
-        var dateofemail = "Date:";
         var subject = "Subject:";
         var spf = "Received-SPF:";
         var contenttype = "Content-Type:";
