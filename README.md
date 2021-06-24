@@ -1,5 +1,5 @@
 <h1 align="center">
-<a href="https://github.com/umair9747/headmail/"><img src="logo.png" alt="logo" height="200" width="500"></a>
+<a href="https://github.com/umair9747/headmail/"><img src="logo.png" alt="logo" height="200" width="300"></a>
   <br>
   <img src="https://img.shields.io/badge/version-1.0.0-blue">
   <img src="https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20mac%20%7C%20termux-yellow">
