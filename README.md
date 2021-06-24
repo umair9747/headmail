@@ -17,7 +17,7 @@
 </h2>
 
 <h1 align="center">
-<img src="output.png" alt="output" height="400" width="600">
+<img src="output.png" alt="output" height="300" width="600">
   </h1>
   
 <p align="left">
