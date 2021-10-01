@@ -5,7 +5,7 @@ const figlet = require('figlet');
 function data(){
     figlet('HEADMAIL', function(err, data) {
         if (err) {
-            console.log('Something went wrong...');
+            console.log('Oops! seems like something went wrong...');
             console.dir(err);
             return;
         }
