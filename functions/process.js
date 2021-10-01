@@ -8,7 +8,7 @@ function process(){
     var filename;
 
     if(!input[0]){
-        console.log(align("Please provide the minimum number of arguments to run this program!".red, 5));
+        console.log(align("Please provide the minimum number of arguments required to run this tool!".red, 5));
     }
     else {
         if(inputlength < 1){
