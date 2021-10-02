@@ -114,7 +114,7 @@
 
 
  <h2 align="left">
-  <b>Wlling to Contribute?</b>
+  <b>Willing to Contribute?</b>
  </h2>
 
 <p align="left">
